@@ -1,0 +1,75 @@
+.header{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ACA9BB;
+    border-style: double; 
+}
+.image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+h2{
+    border-style:ridge;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: white;  
+    text-align: center;
+    background-color: rgb(3, 3, 54);
+    color:aliceblue;
+    padding: 12px;
+}
+section{
+    border-style:hidden;
+    border-width: 40px;
+}
+article{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container{
+    background-color: blue;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+}
+.sideA{
+    position:relative;
+    background-color: #ACA9BB;
+    padding: 40px;
+}
+.sideB{
+    position:relative;
+    background-color: #ACA9BB;
+    padding: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.menu{
+    background-color: #ACA9BB;
+    width:fit-content;
+    height:fit-content;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
