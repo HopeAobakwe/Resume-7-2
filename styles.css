@@ -4,8 +4,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #ACA9BB;
+    background: #ACA9BB;
     border-style: double; 
+    height: 840px;
 }
 .image{
     position: relative;
@@ -15,6 +16,7 @@
     object-fit: cover;
 
 }
+
 h2{
     border-style:ridge;
     border-width: 3px;
@@ -28,35 +30,29 @@ h2{
 }
 section{
     border-style:hidden;
-    border-width: 40px;
-}
-article{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border-width: 20px;
 }
 
 .container{
-    background-color: blue;
     display:grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,1);
     position: relative;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     min-height: 1000px;
     margin: 50px;
+}
 }
 .sideA{
     position:relative;
     background-color: #ACA9BB;
-    padding: 40px;
+    padding: 10px;
 }
 .sideB{
     position:relative;
-    background-color: #ACA9BB;
-    padding: 100px;
+    background-color: white;
+    padding:20px;
 }
 
 form {
@@ -68,8 +64,14 @@ form {
     background-color: #ACA9BB;
     width:fit-content;
     height:fit-content;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-right: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+html {
+    background: #ACA9BB url(./images/Hero.jpg);
+    align-items: center;
+    
 }
